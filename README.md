@@ -5,7 +5,7 @@ Progetto sviluppato per l’esame di **Tecnologie dei Dati e del Linguaggio** (T
 ---
 
 ## Panoramica e Obiettivo
-‘'obiettivo principale del progetto è testare se i modelli open-source privi di filtri commerciali riescano a superare la censura preventiva riscontrata su ChatGPT (durante l’analisi di trascrizioni sensibili tratte dal podcast d’inchiesta *Veleno* di Pablo Trincia e Alessia Rafanelli) e valutarne l’effettiva affidabilità semantica e i limiti interpretativi.
+L’obiettivo principale del progetto è testare se i modelli open-source privi di filtri commerciali riescano a superare la censura preventiva riscontrata su ChatGPT (durante l’analisi di trascrizioni sensibili tratte dal podcast d’inchiesta *Veleno* di Pablo Trincia e Alessia Rafanelli) e valutarne l’effettiva affidabilità semantica e i limiti interpretativi.
 
 ---
 
