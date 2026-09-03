@@ -36,4 +36,4 @@ L’obiettivo principale del progetto è testare se i modelli open-source privi 
 * `risultati_test_rifiuti_ampliato.json`: Dataset strutturato con gli output dei test.
 * `grafico_test.png`: Grafico a barre descrittivo generato con Matplotlib.
 * `report.html`: Artifact finale che raccoglie in modo pulito e autonomo l’intero esperimento.
-* `presentazione_progetto.pptx` (o file delle slide): Presentazione strutturata in 10 slide per la discussione orale dell’esame.
+* `presentazione_progetto.pptx` (file delle slide): Presentazione strutturata in 10 slide per la discussione orale dell’esame.
