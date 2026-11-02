@@ -1,0 +1,30 @@
+[
+    {
+        "id_frammento":1,
+        "categoria":"Audizione protetta (Dario)",
+        "tipo_prompt":"Operativo \/ Fattuale",
+        "conservazione_lessicale_%":16.6666666667,
+        "lunghezza_output_parole":18
+    },
+    {
+        "id_frammento":2,
+        "categoria":"Audizione protetta (Dario)",
+        "tipo_prompt":"Accademico \/ Teoretico",
+        "conservazione_lessicale_%":0.0,
+        "lunghezza_output_parole":19
+    },
+    {
+        "id_frammento":3,
+        "categoria":"Testimonianze e Riti (Cimitero)",
+        "tipo_prompt":"Operativo \/ Fattuale",
+        "conservazione_lessicale_%":0.0,
+        "lunghezza_output_parole":17
+    },
+    {
+        "id_frammento":4,
+        "categoria":"Analisi Incoerenze Investigative",
+        "tipo_prompt":"Accademico \/ Teoretico",
+        "conservazione_lessicale_%":16.6666666667,
+        "lunghezza_output_parole":22
+    }
+]
