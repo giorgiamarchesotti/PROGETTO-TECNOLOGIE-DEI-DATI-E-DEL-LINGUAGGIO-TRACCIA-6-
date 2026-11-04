@@ -36,14 +36,28 @@ L’esperimento è stato condotto in ambiente **Google Colab** attraverso una pi
 ---
 
 ## 5. Risultati e Discussione Critica
-* **Assenza di Hard Refusal (0%):** I modelli open-source analizzati non attivano blocchi formali o preventivi, portando sempre a termine l’esecuzione dell'output.
+* **Assenza di Hard Refusal (0%):** I modelli open-source analizzati non attivano blocchi formali o preventivi, portando sempre a termine l’esecuzione dell’output.
 * **Censura Semantica Interna e Edulcorazione:** L’analisi quantitativa e qualitativa rivela una drastica riduzione della conservazione lessicale (spesso compresa tra lo 0% e il 16.7%). Questo evidenzia un fenomeno di edulcorazione: il modello, pur non rifiutando il testo, attenua sistematicamente i termini più forti, fraintende i ruoli narrativi e neutralizza la complessità del discorso orale.
 
 ---
 
-## 6. Struttura del Repository
+## 6. Criticità Metodologiche
+* **Natura del corpus:** Il corpus non è costituito da perizie giudiziarie o atti processuali originali, ma da trascrizioni audio di un’inchiesta giornalistica (*Veleno*). Il testo risente quindi di una mediazione autoriale e narrativa che si riflette sull’input fornito al modello.
+* **Limiti delle metriche quantitative:** Il calcolo delle parole chiave tramite Pandas si muove su un piano puramente quantitativo; una bassa conservazione lessicale non indica necessariamente un “errore”, poiché può riflettere una parafrasi o una sintesi legittima, rendendo indispensabile l’affiancamento costante dell’analisi qualitativa.
+* **Scalabilità del test:** L’esperimento si basa su un campione mirato di frammenti critici (10 test), funzionale all’indagine qualitativa ma perfettibile su scala statistica più ampia.
+
+---
+
+## 7. Sviluppi Futuri
+* **Allargamento del corpus:** Integrazione delle trascrizioni con testi giornalistici d’archivio o atti di dibattimento pubblici per verificare il comportamento del modello su registri testuali differenti.
+* **Fine-tuning e Prompt Engineering avanzato:** Sperimentazione di strategie di prompt engineering strutturate o tecniche di allineamento per mitigare l’edulcorazione lessicale nei modelli open-source.
+* **Metriche semantiche avanzate:** Introduzione di metriche basate su *embedding* vettoriali e modelli di *semantic similarity* (es. BERT score) per misurare lo scostamento semantico sul piano concettuale profondo.
+
+---
+
+## 8. Struttura del Repository
 * `notebook_progetto.ipynb`: Taccuino Python contenente il codice sorgente, la pipeline di calcolo e l’esecuzione dei test.
-* `risultati_test_rifiuti_ampliato.json`: Dataset strutturato in formato JSON contenente i metadati e gli output dell’esperimento (in allegato anche il dataset del progetto precedente).
-* `grafico_test.png`: Grafico statistico generato tramite Matplotlib sulla conservazione lessicale (in allegato anche il grafico del progetto precedente).
-* `report.html`: Artifact HTML autonomo riassuntivo dell’esperimento (in allegato anche l’Artifact HTML del progetto precedente).
+* `risultati_test_rifiuti_ampliato.json`: Dataset strutturato in formato JSON contenente i metadati e gli output dell’esperimento (incluso il dataset del progetto precedente).
+* `grafico_test.png`: Grafico statistico generato tramite Matplotlib sulla conservazione lessicale (incluso il grafico del progetto precedente).
+* `report.html`: Artifact HTML autonomo riassuntivo dell’esperimento (incluso l’Artifact del progetto precedente).
 * `presentazione_progetto.pptx`: Presentazione in 10 slide strutturata per la discussione orale dell’esame.
